@@ -4,9 +4,11 @@ body {
 
 h1 {
   color: #221811;
+
 }
 
 header {
+  text-align: center;
   background-color: #D2B48C
 }
 
