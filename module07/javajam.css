@@ -1,0 +1,25 @@
+body {
+  background-color: #b89e81;
+}
+
+h1 {
+  color: #221811;
+
+}
+
+header {
+  text-align: center;
+  background-color: #D2B48C
+}
+
+nav {
+  text-align: center;
+}
+
+footer {
+  background-color: #D2B48C
+}
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 80%; }
