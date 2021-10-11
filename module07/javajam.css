@@ -1,5 +1,5 @@
 body {
-  background-color: #b89e81;
+  background-image: url("image/background.gif");
 }
 
 h1 {
@@ -25,5 +25,5 @@ footer {
            width: 80%; }
 
 .details {
-  
+
 }
