@@ -4,17 +4,21 @@ body {
 
 h1 {
   color: #221811;
-
+  padding-top: 45px;
+  padding-left: 220px;
+  font-size: 3em;
 }
 
 header {
   height: 150px;
   background-image: url("image/javajamlogo.jpg")
-  
+
   background-color: #D2B48C;
 }
 
 nav {
+  font-size: 1.5em;
+  padding-top: 10px;
   text-align: center;
 }
 
