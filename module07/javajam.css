@@ -30,6 +30,7 @@ h4 {
 header {
   height: 150px;
   background-image: url("image/javajamlogo.jpg");
+  background-repeat: no-repeat;
 }
 
 nav {
