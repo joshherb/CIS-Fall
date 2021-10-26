@@ -107,6 +107,20 @@ nav {
   text-align: center;
 }
 
+/*nav descendants*/
+
+nav a:link {
+  color: #FEF6C2;
+}
+
+nav a:visited {
+  color: #D2B48C;
+}
+
+nav a:hover {
+  color: #CC9933;
+}
+
 footer {
   padding-bottom: 10px;
   border-top: 2px;
