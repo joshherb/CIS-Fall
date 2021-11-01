@@ -121,6 +121,11 @@ nav a:hover {
   color: #CC9933;
 }
 
+nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
 footer {
   padding-bottom: 10px;
   border-top: 2px;
@@ -134,7 +139,7 @@ footer {
   min-width: 900px;
   max-width: 1280px;
   box-shadow: 5px 10px;
-  background-color: #FEF6C2;
+  background-color: #231814;
 }
 
 a.link{
