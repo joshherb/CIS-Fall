@@ -122,6 +122,16 @@ footer {
   display: block;
 }
 
+#left {
+  position: relative;
+  float: left;
+}
+
+#right {
+  position: relative;
+  float: right;
+}
+
 #wrapper {
   margin-left: auto;
   margin-right: auto;
