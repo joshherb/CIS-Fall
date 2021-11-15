@@ -6,10 +6,22 @@ body {
  background-color: black;
 }
 
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: auto;
+  height: auto;
+}
+
 /*This is the main*/
 
 main {
   background-color: black;
+  border: 2px solid white;
   padding-top: 0em;
   padding-left: 0em;
   padding-right: 0em;
@@ -21,8 +33,7 @@ main {
 
 main h2 {
   color: white;
-  padding-left: 3em;
-  padding-right: 2em;
+
 }
 
 main h3 {
@@ -42,7 +53,6 @@ main p {
 
 main div {
   padding-left: 3em;
-  padding-right: 2em;
 }
 
 main ul {
@@ -56,7 +66,7 @@ main dl {
 }
 
 main img {
-  width: 35%;
+  width: 60%;
   height: auto;
 
 }
@@ -64,9 +74,9 @@ main img {
 /*no more*/
 
 h1 {
-  color: #221811;
+  color: white;
+  text-align: center;
   padding-top: 45px;
-  padding-left: 220px;
   font-size: 3.5em;
   font-family: monospace;
 }
@@ -82,7 +92,7 @@ h4 {
 }
 
 header {
-  background-color: silver;
+  background-color: black;
   height: 150px;
   display: block;
 }
@@ -122,15 +132,6 @@ footer {
   display: block;
 }
 
-#left {
-  position: relative;
-  float: left;
-}
-
-#right {
-  position: relative;
-  float: right;
-}
 
 #wrapper {
   margin-left: auto;
@@ -138,8 +139,6 @@ footer {
   width: 80%;
   min-width: 900px;
   max-width: 1280px;
-  box-shadow: 5px 10px;
-  background-color: #231814;
 }
 
 a.link{
