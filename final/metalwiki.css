@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/background-image.png");
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.landing {
+  width: 200px;
+  height: 200px;
+}
+
+/*This is the main*/
+
+.header {
+  grid-area: header;
+  text-align: center;
+  height: 200px;
+  text-decoration: underline;
+}
+.header img {
+  height: 125px;
+}
+.navmenu {
+  grid-area: menu;
+  text-align: center;
+}
+.navmenu ul {
+  text-align: left;
+}
+.main {
+  grid-area: main;
+}
+
+.landingsect {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #323233;
+}
+.landing-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main figcaption {
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #323233;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*form*/
+form {
+  padding: 2em;
+  }
+form label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em
+}
+form input {
+  display: block;
+  margin-bottom: 1em
+}
+form textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+#mySubmit {
+  margin-left: 9.5em;
+}
+/*form*/
