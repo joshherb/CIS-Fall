@@ -4,6 +4,12 @@
 
 body {
   background-image: url("images/background-image.png");
+  background-attachment:fixed;
+  }
+
+.wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .center {
@@ -81,8 +87,8 @@ h2 {
   grid-gap: 10px;
   background-color: #323233;
   padding: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 .grid-container > div {
