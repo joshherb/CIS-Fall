@@ -43,25 +43,31 @@ h2 {
 }
 .main {
   grid-area: main;
+  overflow: scroll;
 }
 
+
+/*landing FELXBOX section*/
 .landingsect {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-wrap: nowrap;
   background-color: #323233;
 }
-.landing-item {
+.landingsect div {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  width: 25%;
 }
 
 .main figcaption {
   font-size: 15px;
   text-align: center;
 }
+
+/*landing section*/
 
 .footer { grid-area: footer; }
 
@@ -75,6 +81,8 @@ h2 {
   grid-gap: 10px;
   background-color: #323233;
   padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .grid-container > div {
